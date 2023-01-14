@@ -1,0 +1,125 @@
+<html>
+    <head>
+	   <title> Hobby </title>
+	   <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	   <link rel="icon" type="text/css" href="picture/meow logo.png" />
+
+	   <style>  
+	    body { 
+		background-image: url('picture/images.jpeg');
+		background-repeat: no-repeat;
+		height: 95vh;
+		background-position: left;
+		background-size:cover;
+			 }
+        table {
+		border-radius: 2%;
+		background:rgba(0,0,0,0.7);
+        position: relative;
+	    margin-left: 11%;
+	    margin-right: auto;
+		margin-bottom: 4%;
+        }
+	    </style>
+	</head>
+	<!--navigation bar-->
+	<body>
+		<div class="my-logo">
+			<img src="picture/meow logo.png" alt= " " width="100">
+		</div>
+		<div class="header">
+			<nav>	
+				<ul>
+				<li><a href="index.html">BIODATA</a></li>
+				<li><a href="hobbies.html">MY HOBBIES</a></li>
+				<li><a href="favouritesongs.html">MY FAVOURITE SONGS</a></li>
+				<li><a href="favouritefoods.html">MY FAVOURITE FOODS</a></li>
+				<li><a href="mediasocials.html">MY PERSONAL MEDIA SOCIALS</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+	<table align="left" width="1200" border="0">
+		<tr>
+			<td colspan="2">
+				<div class="container">
+					<div class="row">
+					  <div class="page-title">
+						<h2 class="animate-charcter"> MY HOBBIES</h2>
+					  </div>
+					</div>
+				  </div>
+			</td>
+		</tr>
+	    <tr>
+		    <td>
+			    <div class= "box">
+			    <img src="picture/myart.jpg" alt= " " class="box-img-a">
+			    </div>
+			</td>
+		    <td>
+				<div class="box-c">
+				<h2 class="text-left"><font color="purple">Drawing</font></h2><br>
+				<h3 class="text-left"><p>Drawing is an exercise for the hand, mind, and eyes, and the 
+					activity provides benefits that can be applied to many aspects of life, from work to relationships. 
+					Understand how you can utilize the healing capabilities and cognitive benefits of drawing, which are outlined below.</p></h3><br>
+			    <h3 class="text-left"><p>In addition to creativity, there are cognitive and cerebral benefits to sketching. 
+					We use our brains when we draw, and this not only releases endorphins, but helps build new connections and pathways. 
+					When drawing, we actively use both sides of our brain, the right for creativity, and the left for logical thinking. 
+					This strengthens both and helps develop the ability to focus and think strategically.</p></h3>
+				</div>
+			</td>
+		</tr>
+		
+	
+		<tr>
+		    <td>
+				<div class="box-c">
+				<h2 class="text-right"><font color="purple">Watching Kdrama</font></h2><br>
+				<h3 class="text-right"><p>As you watch the kdrama, your mind is also at work conjuring up the scene that took place. 
+					The stimulation it provides the brain is excellent. 
+					Indeed, since the human brain needs to remain busy, it can support a healthy brain. 
+					In this situation, it is advised to watch dramas in the thriller, suspense, and criminal genres. 
+					These subgenres are known to make it difficult for you to focus on and retain intricate plots, including red herrings, from one episode to the next. 
+					The more you exercise your brain, the better and sharper it gets. 
+					That's great, isn't it?</p></h3><br>
+			    <h3 class="text-right"><p>You need some healthy hobbies to deal with stress and despair, therefore engage in them. 
+					You can do it by watching Korean drama, for example. It will aid the treatment of depression and stress. 
+					Serotonin (which makes us feel happy) and dopamine are released into the brain as a result of the limbic system being correctly stimulated. 
+					These substances are recognised to aid in generating a contented and joyful sensation. 
+					Therefore, if you want to relieve your tension and despair, you should think about watching Korean drama.</p></h3>
+				</div>
+			</td>
+			 <td>
+			    <div class= "box">
+			    <img src="picture/bigmouth.jpeg" alt= " " class="box-img-a">
+				</div>
+			 </td>
+		</tr>
+	</table>
+    
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="picture/Arrow.png" alt= " " width="50"></button>
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+	</body>
+</html>
