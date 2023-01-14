@@ -1,0 +1,379 @@
+
+.header {
+    width:100%;;
+	}
+		
+.header ul {
+    text-align:center;
+           }
+		   
+.header ul li {
+	list-style:none;
+	display:inline-block;
+	}
+	
+.header ul li a {
+	display:block;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
+	font-size:16px;
+	font-family: 'helvetica', sans-serif;
+	letter-spacing:1px;
+	font-weight:600;
+	padding:20px;
+	transition: all ease 0.4s;
+	}
+	
+.header ul li a:hover {
+	background-color:rgb(90, 26, 104);
+	}
+	
+
+.box {
+	padding:10px ;
+	text-align:center;
+	margin-bottom:-30;
+	color:white;
+	font-family:'Century Gothic', sans-serif;	
+	}
+				
+.box-img {
+	border-radius:100%;
+	width:160px;
+	height:160px;
+	}
+.box-img-a {
+		border-radius:100%;
+		width:200px;
+		height:200px;
+	}
+
+.box-vid {
+		border-radius:100%;
+		padding:10px ;
+		text-align:justify;
+		text-align-last:center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -35;
+		}
+	
+.box h1 {
+	font-size:25px;
+	letter-spacing:px;
+	font-weight:700;
+	}
+
+.box h2 {
+	margin-bottom: -25;
+	font-size:19px;
+	letter-spacing:7px;
+	font-weight:25;
+	}
+	
+.box p  {
+	margin-top: -20;
+	font-size:16px;
+	text-align:center;
+	font-family:'Monaco', Monospace;
+	color : white;
+	}
+	
+.box h3	{
+	font-size:12px;
+	font-family:'helvetica',sans-serif;
+	}
+
+						
+.box-a {
+	width:90%;
+	padding:10px;
+	right: 10%;
+	margin:auto;
+	color:white;
+	font-family:'Century Gothic', sans-serif;
+	}
+
+.box-a h1 {
+	    width: 82%;
+		font-size:15px;
+		letter-spacing:2px;
+		font-weight:25;
+		font-family:'helvetica',sans-serif;
+		text-align:justify;
+	}
+			
+.box-a h3 {
+	margin-top: 0;
+	font-size:19px;
+	letter-spacing:2px;
+    font-weight:25;
+	font-family:'helvetica',sans-serif;
+    text-align:justify;
+	}
+	
+.box-b {
+	width:60%;
+	padding:10px ;
+	text-align:justify;
+	text-align-last:center;
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+
+	}
+
+.box-b h2	{
+	font-size:18px;
+	letter-spacing:2px;
+    font-weight:25;
+	font-family:'helvetica',sans-serif;
+	}
+
+.box-b h3	{
+	font-size:13px;
+	letter-spacing:2px;
+	font-weight:25;
+	font-family:'helvetica',sans-serif;
+	}
+	
+.box-b p  {
+	font-family:'helvetica',sans-serif;
+	color : white;
+	}
+
+.box-c {
+		width:95%;
+		padding:10px;
+		right: 10%;
+		margin:auto;
+		color:white;
+		font-family:'Century Gothic', sans-serif;
+		}
+	
+.box-c h1 {
+			width: 82%;
+			font-size:15px;
+			letter-spacing:2px;
+			font-weight:25;
+			font-family:'helvetica',sans-serif;
+			text-align:justify;
+		}
+	
+				
+.box-c h3 {
+	    margin-top: -20;
+		font-size:15px;
+		letter-spacing:2px;
+		font-weight:25;
+		font-family:'helvetica',sans-serif;
+		text-align:justify;
+		}
+		
+.box:link {
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+	font-family:'Monaco', Monospace;
+	}
+	
+.box:visited {
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+	}
+
+.text-right {
+	margin-left: 70;
+}
+
+.text-left {
+	margin-right: 70;
+}
+	
+.box a:visited {
+	color: white;
+    background-color: transparent;
+    text-decoration: none;
+	}
+
+.skill { 
+		width:100px;
+		margin:auto;
+		color: #fff;
+		padding:20px;
+		}
+
+.skill h2 {
+		text-align:center;
+		font-size:19px;
+		letter-spacing:2px;
+		font-weight:25;
+		font-family:'helvetica',sans-serif;
+		color:purple;
+		}
+.skill h3 {
+	
+		text-align:left;
+		font-family:'monaco',monospace;
+		color:white;
+		font-size:15px;
+		text-transform:uppercase;
+		}
+.skill h4 {
+	    text-align:center;
+		font-size:19px;
+		letter-spacing:2px;
+		font-weight:25;
+	    font-family:'helvetica',sans-serif;
+		color:purple;
+		}
+
+.skill li {
+		margin:20px 0;
+		padding:10px;
+		}
+.bar {
+	background:#ffffff;
+	display:block;
+	height : 10px;
+	width : 100px;
+	border: 1px solid rgb(255, 254, 254);
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+	}
+.bar span {
+	height:20px;
+	float:left;
+	background:linear-gradient(rgb(83, 5, 57), rgb(150, 10, 94)0,rgb(201, 15, 152)100%);
+	}
+.english {
+		width: 70%;
+		animation: english 3s;
+		}
+.malay {
+		width: 100%;
+		animation: malay 3s;
+		}
+.html {
+		width: 83%;
+		animation: html 3s;
+		}
+.css {
+		width: 83%;
+		animation: css 3s;
+		}
+.photoshop {
+		width: 94%;
+		animation: photoshop 3s;
+		}
+.lightroom {
+		width: 87%;
+		animation: lightroom 3s;
+		}
+.videoediting {
+		width: 90%;
+		animation: videoediting 3s;
+		}
+
+.page-title {
+	    text-align:justify;
+	    text-align-last:center;
+		padding: -25%;
+	    margin-right: 30%;
+		font-size:19px;
+		font-weight:25;
+	    font-family:'helvetica',sans-serif;
+		color:rgb(86, 8, 75);
+		}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #33013a 0%,
+    #490360 29%,
+    #7c08a0 67%,
+    #de0af5 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 25px;
+  text-align:center;
+  margin-left: 43%;
+  margin-right: auto;
+  font-weight:700;
+	font-family:'helvetica',sans-serif;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.my-logo {
+	width: 10;
+	height: 10;
+	text-align: center;
+	position:absolute;
+	padding:20px;
+
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	border: none;
+	outline: none;
+    background:rgba(0,0,0,0.0);
+	color: white;
+	cursor: pointer; 
+	padding: 0px;
+	border-radius: 100px;
+  }
+
+#myBtn:hover {
+		background-color: rgb(130, 8, 67); 
+	  }
+
+	  .box-d{
+       margin-left: 3%;
+       width: 300px;
+	   padding: 25px;
+       text-align-last: center;
+       color: white;
+       font-family: 'Century Gothic',sans-serif;
+}
+	.box-d p{
+	  text-align: justify;
+	}
+
+
+	.box-img-r{
+		border-radius:100%;
+		width:100px;
+		height:100px;
+	    border-width: 2;
+        background:rgba(0,0,0,0.0);
+		}
+	
+	.box-img-r:hover	{
+		            background-color: rgb(130, 8, 67) ; 
+					opacity:0.7;
+					
+					}
